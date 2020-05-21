@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.example.aplicacinftc.Fragments.gestionarFragment;
 import com.example.aplicacinftc.Fragments.modificarFragment;
@@ -145,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void setToolbar() {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setActionBar(toolbar);
+        //setSupportActionBar(toolbar);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_name);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

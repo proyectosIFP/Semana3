@@ -162,8 +162,6 @@ public class modificarFragment extends Fragment {
                         stringFoto = uri.toString();
                         mDataBase.child("Users").child(id).child("foto").setValue(stringFoto);
 
-                        //PÌCASSO Y FOTO DE PERFIL
-
 
                     }
                 });
